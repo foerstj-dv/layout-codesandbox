@@ -1,0 +1,276 @@
+<div class="topbar" [attr.menuExpanded]="menuExpanded">
+  <div class="mobile-logo hide-tb">
+    SCHULDSCHEIN DEBTVISION
+  </div>
+  <div class="action-holder">
+    <button (click)="toggleClick()">trigger menu</button>
+    <div class="tablet-logo hide show-tb">
+      SCHULDSCHEIN <br />
+      DEBTVISION
+    </div>
+
+    <div class="search hide show-tb">asdfasdffasd</div>
+
+    <div class="action-icons">
+      <button>glocke</button>
+      <button>user</button>
+    </div>
+  </div>
+</div>
+
+<div class="content-sidebar-flexer">
+  <div class="flyout" [attr.expanded]="menuExpanded">
+    <div class="search hide-tb">suche</div>
+    <div class="flyout-menu-items">
+      <input type="checkbox" [(ngModel)]="langesMenu" />
+      <ul>
+        <li>mega</li>
+        <li>tolles</li>
+        <li>menu</li>
+      </ul>
+      <div *ngIf="langesMenu">
+        <ul>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+          <li>mega</li>
+          <li>tolles</li>
+          <li>menu</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <input type="checkbox" [(ngModel)]="haufenContent" />
+    <div *ngIf="haufenContent">
+      ANFANG Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat
+      porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget
+      risus varius blandit sit amet non magna. Praesent commodo cursus magna,
+      vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus
+      auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+      Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean
+      eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+      Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
+      faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit
+      amet non magna. Cum sociis natoque penatibus et magnis dis parturient
+      montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod
+      semper. Vestibulum id ligula porta felis euismod semper. Duis mollis, est
+      non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+      elit. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
+      eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus
+      varius blandit sit amet non magna. Maecenas sed diam eget risus varius
+      blandit sit amet non magna. Cras mattis consectetur purus sit amet
+      fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+      Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis
+      dis parturient montes, nascetur ridiculus mus. Duis mollis, est non
+      commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+      elit. Maecenas sed diam eget risus varius blandit sit amet non magna.
+      Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec
+      ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+      felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl
+      consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+      venenatis vestibulum. Donec sed odio dui. Vivamus sagittis lacus vel augue
+      laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius
+      blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta
+      felis euismod semper. Vestibulum id ligula porta felis euismod semper.
+      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+      lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget
+      metus. Maecenas sed diam eget risus varius blandit sit amet non magna.
+      Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas
+      sed diam eget risus varius blandit sit amet non magna. Cras mattis
+      consectetur purus sit amet fermentum. Morbi leo risus, porta ac
+      consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum.Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor
+      ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus
+      varius blandit sit amet non magna. Praesent commodo cursus magna, vel
+      scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor
+      fringilla. Vestibulum id ligula porta felis euismod semper. Praesent
+      commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo
+      quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed
+      odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+      auctor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Vestibulum id ligula porta felis euismod semper. Vestibulum
+      id ligula porta felis euismod semper. Duis mollis, est non commodo luctus,
+      nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit
+      non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+      blandit sit amet non magna. Maecenas sed diam eget risus varius blandit
+      sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet
+      non magna. Cras mattis consectetur purus sit amet fermentum. Morbi leo
+      risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus
+      mollis interdum.Cum sociis natoque penatibus et magnis dis parturient
+      montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi
+      erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam
+      eget risus varius blandit sit amet non magna. Praesent commodo cursus
+      magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non
+      metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+      Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean
+      eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+      Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
+      faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit
+      amet non magna. Cum sociis natoque penatibus et magnis dis parturient
+      montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod
+      semper. Vestibulum id ligula porta felis euismod semper. Duis mollis, est
+      non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+      elit. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
+      eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus
+      varius blandit sit amet non magna. Maecenas sed diam eget risus varius
+      blandit sit amet non magna. Cras mattis consectetur purus sit amet
+      fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+      Maecenas faucibus mollis interdum.Cum sociis natoque penatibus et magnis
+      dis parturient montes, nascetur ridiculus mus. Duis mollis, est non
+      commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+      elit. Maecenas sed diam eget risus varius blandit sit amet non magna.
+      Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec
+      ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+      felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl
+      consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+      venenatis vestibulum. Donec sed odio dui. Vivamus sagittis lacus vel augue
+      laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius
+      blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta
+      felis euismod semper. Vestibulum id ligula porta felis euismod semper.
+      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+      lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget
+      metus. Maecenas sed diam eget risus varius blandit sit amet non magna.
+      Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas
+      sed diam eget risus varius blandit sit amet non magna. Cras mattis
+      consectetur purus sit amet fermentum. Morbi leo risus, porta ac
+      consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum.Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor
+      ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus
+      varius blandit sit amet non magna. Praesent commodo cursus magna, vel
+      scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor
+      fringilla. Vestibulum id ligula porta felis euismod semper. Praesent
+      commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo
+      quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed
+      odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+      auctor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Vestibulum id ligula porta felis euismod semper. Vestibulum
+      id ligula porta felis euismod semper. Duis mollis, est non commodo luctus,
+      nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit
+      non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+      blandit sit amet non magna. Maecenas sed diam eget risus varius blandit
+      sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet
+      non magna. Cras mattis consectetur purus sit amet fermentum. Morbi leo
+      risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus
+      mollis interdum.Cum sociis natoque penatibus et magnis dis parturient
+      montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi
+      erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam
+      eget risus varius blandit sit amet non magna. Praesent commodo cursus
+      magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non
+      metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+      Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean
+      eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+      Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
+      faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit
+      amet non magna. Cum sociis natoque penatibus et magnis dis parturient
+      montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod
+      semper. Vestibulum id ligula porta felis euismod semper. Duis mollis, est
+      non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+      elit. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
+      eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus
+      varius blandit sit amet non magna. Maecenas sed diam eget risus varius
+      blandit sit amet non magna. Cras mattis consectetur purus sit amet
+      fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+      Maecenas faucibus mollis interdum.Cum sociis natoque penatibus et magnis
+      dis parturient montes, nascetur ridiculus mus. Duis mollis, est non
+      commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+      elit. Maecenas sed diam eget risus varius blandit sit amet non magna.
+      Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec
+      ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+      felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl
+      consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+      venenatis vestibulum. Donec sed odio dui. Vivamus sagittis lacus vel augue
+      laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius
+      blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta
+      felis euismod semper. Vestibulum id ligula porta felis euismod semper.
+      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+      lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget
+      metus. Maecenas sed diam eget risus varius blandit sit amet non magna.
+      Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas
+      sed diam eget risus varius blandit sit amet non magna. Cras mattis
+      consectetur purus sit amet fermentum. Morbi leo risus, porta ac
+      consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum.Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor
+      ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus
+      varius blandit sit amet non magna. Praesent commodo cursus magna, vel
+      scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor
+      fringilla. Vestibulum id ligula porta felis euismod semper. Praesent
+      commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo
+      quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed
+      odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+      auctor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Vestibulum id ligula porta felis euismod semper. Vestibulum
+      id ligula porta felis euismod semper. Duis mollis, est non commodo luctus,
+      nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit
+      non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+      blandit sit amet non magna. Maecenas sed diam eget risus varius blandit
+      sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet
+      non magna. Cras mattis consectetur purus sit amet fermentum. Morbi leo
+      risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus
+      mollis interdum.Cum sociis natoque penatibus et magnis dis parturient
+      montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi
+      erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam
+      eget risus varius blandit sit amet non magna. Praesent commodo cursus
+      magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non
+      metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+      Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean
+      eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+      Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
+      faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit
+      amet non magna. Cum sociis natoque penatibus et magnis dis parturient
+      montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod
+      semper. Vestibulum id ligula porta felis euismod semper. Duis mollis, est
+      non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+      elit. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
+      eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus
+      varius blandit sit amet non magna. Maecenas sed diam eget risus varius
+      blandit sit amet non magna. Cras mattis consectetur purus sit amet
+      fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+      Maecenas faucibus mollis interdum.
+    </div>
+  </div>
+</div>
